@@ -102,7 +102,7 @@ class Net(nn.Module):
              nn.Conv2d(16, 14, 3, padding=1, bias=False),
              )
         
-        self.pool1= nn.MaxPool2d(2, 2)
+        
         self.gap = nn.AdaptiveAvgPool2d(1)
         self.flat = nn.Flatten()
         self.fc = nn.Linear(14, 10) 
