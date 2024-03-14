@@ -7,7 +7,7 @@ Training a model using MNIST data is a straightforward process. Essentially, it 
 ### Input
 MNIST data comprises images depicting handwritten digits.
 
-![MINIST](images/mnist.png)
+![MINIST](image/mnist.png)
 
 - Constraints    Keep the parameters under 20,000.
 - Execute the model precisely for 19 epochs.
@@ -156,9 +156,9 @@ Test set: Average loss: 0.0191, Accuracy: 9944/10000 (99.44%)
 
 The network is trained with Batch Normalization and Dropout and accuracy is greater than 99.4 %. The loss and accuracy curve is almost smooth except little spikes in validation data but eventually it is smooth at the end
 
-![accuracy](images/accuracy.png)   ![loss](images/loss.png)
+![accuracy](image/accuracy.png)   ![loss](image/loss.png)
 
-![accuracy_loss](images/accuracy_loss.png)
+![accuracy_loss](image/accuracy_loss.png)
 
 As we go in future session, the architecture will be improved with new learning.
 Thank you.
