@@ -12,7 +12,7 @@ import torch.nn.functional as F
 from tqdm import tqdm
 from torchsummary import summary
 
-class Net(nn.Module):
+class Session6_Model_old(nn.Module):
     """
     A convolutional neural network (CNN) architecture implemented using PyTorch's nn.Module.
 
@@ -51,7 +51,7 @@ class Net(nn.Module):
 
     """
     def __init__(self,dropout_prob):
-        super(Net, self).__init__()
+        super(Session6_Model_old, self).__init__()
         self.conv1 = nn.Sequential(
             nn.Conv2d(1, 4, 3, padding=1, bias=False),
             nn.ReLU(),
