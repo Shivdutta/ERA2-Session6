@@ -4,9 +4,9 @@ import torch.nn.functional as F
 from tqdm import tqdm
 from torchsummary import summary
 
-class Model10(nn.Module):
+class Model_S6(nn.Module):
     def __init__(self,dropout_value):
-        super(Model10, self).__init__()
+        super(Model_S6, self).__init__()
         self.conv1 = nn.Sequential(
             nn.Conv2d(in_channels=1, out_channels=10, kernel_size=(3, 3), padding=0, bias=False),
             nn.ReLU(),
